@@ -1,8 +1,9 @@
 def sum(arr):
-  res = 0
-  for x in arr:
-    res += x
+    res = 0
+    for x in arr:
+        res += x
 
-  return res
+    return res
+
 
 print(sum([1, 2, 5]))

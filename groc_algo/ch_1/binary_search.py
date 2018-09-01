@@ -10,7 +10,7 @@ def binary_search(list, item):
     while high >= low:
         mid = (low + high) // 2
         guess = list[mid]
-    
+
         if guess == item:
             return mid
         if guess > item:
