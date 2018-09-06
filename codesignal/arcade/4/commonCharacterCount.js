@@ -16,6 +16,25 @@ function commonCharacterCount(str1, str2) {
   return result;
 }
 
+// function commonCharacterCount(s1, s2) {
+//   for (var i = 0; i < s1.length; i++) {
+//       s2 = s2.replace(s1[i], "!");
+//   }
+//   return s2.replace(/[^!]/g, "").length;
+// }
+
+// function commonCharacterCount(s1, s2) {
+//   var a=s1.split(""),r=0
+//   while (a.length){
+//     var t=a.pop()
+//     if(s2.includes(t)){
+//       r++
+//       s2=s2.replace(t,"")
+//     }
+//   }
+//   return r
+// }
+
 let s1 = "aabcc";
 let s2 = "adcaa";
 console.log(commonCharacterCount(s1, s2) == 3);
